@@ -63,6 +63,7 @@ body{
     .movies_list{
     
         .movie-container{
+            padding-bottom: 2%;
             border-bottom: 1px solid white;
             display: grid;
             grid-template-columns: repeat(2, 400px);
