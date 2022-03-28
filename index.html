@@ -1,18 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/css/index.css">
-    <script src="/assets/js/index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Roboto:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+<!--<script src="/assets/js/index.js"></script>-->
     <title>Document</title>
 </head>
-<body onload="getIMGSRC()">
- 
-  
-    <div id="image-container" class="image-container"></div>
 
- 
+<body>
+
+
+    <!-- <div id="image-container" class="image-container">
+       
+    </div>-->
+    <div class="wrapper">
+
+        <div class="nav-bar">
+            <div class="logo">Movie<span>Freaks</span></div>
+            <div class="search-bar">
+                <input id="user_input"  type="text" class="user_input" placeholder="Search..">
+                <i onclick="search()" class="fa fa-search"></i>
+            </div>
+        </div>
+      
+    
+    <div class="movies-section">
+        <ul id="movies_list" class="movies_list">
+            <li class="movie-container"> 
+                   <img src="https://imdb-api.com/images/original/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_Ratio0.6800_AL_.jpg"
+                   alt="">
+               <h1 class="title">Inception</h1>
+               <p class="rldate">Release date</p>
+               <p class="director">Director</p>
+               <p class="stars">Stars</p>
+               <p class="genre">Genre</p>
+               </li>
+       
+               <li class="movie-container"> 
+                   <img src="https://imdb-api.com/images/original/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_Ratio0.6800_AL_.jpg"
+                   alt="">
+               <h1 class="title">Inception</h1>
+               <p class="rldate">Release date</p>
+               <p class="director">Director</p>
+               <p class="stars">Stars</p>
+               <p class="genre">Genre</p>
+               </li>  
+             
+           </ul>
+    </div>
+  
+    </div>
+  
+
+
 </body>
+
 </html>
